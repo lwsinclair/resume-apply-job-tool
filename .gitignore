@@ -1,0 +1,58 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+*.js.map
+*.d.ts.map
+
+# Personal data - IMPORTANT: Don't commit personal resumes
+*.pdf
+*.docx
+!templates/*.md
+
+# Application data
+data/applications.csv
+data/jobs_cache.json
+data/resume_cache/
+
+# Generated artifacts
+artifacts/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Project specific
+claude-comm/
+WORKING.md
+watch-comms.js

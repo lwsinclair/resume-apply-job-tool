@@ -1,0 +1,44 @@
+{
+  "name": "resume-apply-job-tool",
+  "version": "1.0.0",
+  "description": "MCP server for automated job applications",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon --watch src --exec ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "ts-node scripts/e2e.ts",
+    "api": "ts-node src/http-server.ts",
+    "api:dev": "nodemon --watch src --exec ts-node src/http-server.ts",
+    "api:prod": "node dist/http-server.js",
+    "launch": "ts-node scripts/launch.ts"
+  },
+  "keywords": [
+    "mcp",
+    "job-application",
+    "resume",
+    "automation"
+  ],
+  "author": "Kumar Madala",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.7.0",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "csv-parse": "^5.6.0",
+    "csv-stringify": "^6.5.2",
+    "express": "^5.1.0",
+    "fast-xml-parser": "^4.5.1",
+    "mammoth": "^1.8.0",
+    "open": "^10.2.0",
+    "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^22.10.6",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}

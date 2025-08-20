@@ -1,0 +1,66 @@
+{
+  "devops": [
+    "devops engineer",
+    "senior devops engineer",
+    "lead devops engineer",
+    "principal devops engineer",
+    "staff devops engineer",
+    "devops architect",
+    "devops specialist",
+    "devops consultant"
+  ],
+  "cloud": [
+    "cloud engineer",
+    "cloud architect",
+    "cloud solutions architect",
+    "aws engineer",
+    "aws architect",
+    "aws solutions architect",
+    "cloud infrastructure engineer",
+    "cloud platform engineer",
+    "cloud operations engineer",
+    "cloud systems engineer"
+  ],
+  "sre": [
+    "site reliability engineer",
+    "sre",
+    "senior sre",
+    "staff sre",
+    "principal sre",
+    "reliability engineer",
+    "production engineer"
+  ],
+  "platform": [
+    "platform engineer",
+    "infrastructure engineer",
+    "systems engineer",
+    "deployment engineer",
+    "release engineer",
+    "build engineer",
+    "automation engineer"
+  ],
+  "security": [
+    "devsecops engineer",
+    "cloud security engineer",
+    "security architect",
+    "security automation engineer",
+    "infrastructure security engineer",
+    "application security engineer"
+  ],
+  "kubernetes": [
+    "kubernetes engineer",
+    "kubernetes administrator",
+    "container platform engineer",
+    "kubernetes architect",
+    "cloud native engineer"
+  ],
+  "principal": [
+    "principal engineer",
+    "staff engineer",
+    "lead engineer",
+    "senior engineer",
+    "architect",
+    "technical lead",
+    "engineering manager"
+  ]
+}
