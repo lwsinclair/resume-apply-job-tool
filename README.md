@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/krm2831-resume-apply-job-tool-badge.png)](https://mseep.ai/app/krm2831-resume-apply-job-tool)
+
 # Resume Apply Job Tool - MCP Server
 
 An automated job application assistant built as an MCP (Model Context Protocol) server that helps streamline the job search and application process.
